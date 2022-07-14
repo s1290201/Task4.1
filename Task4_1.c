@@ -3,7 +3,12 @@
 
 int main(){
     int num, head=0, tail=0;
-  
+    char ary[8];
+
+    printf("Who are you?\n>");
+    scanf("%s", ary);
+    printf("Hello, %s!\n", ary);
+    
     printf("Tossing a coin...\n");
     for(int i = 1; i < 4; i++){
         num = rand()%2;
